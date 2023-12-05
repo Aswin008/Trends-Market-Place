@@ -89,13 +89,6 @@ After The Azure event hub is the entry point to the Azure Data Pipeline.  When d
     * Store raw data as-is in a data lake (i.e. Azure Blob Storage)
     * Connect directly to Stream Analytics
 
-### Azure Event Stream Analytics (ETL & Analysis)
-sdfsdf
-
-#### Features
-* Creates End-to-end analytics pipeline that  can be production-ready within minutes, no-code editor required
-* 
-
 <br>
 
 ## Team Members
