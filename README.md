@@ -112,6 +112,20 @@ After The Azure event hub is the entry point to the Azure Data Pipeline.  When d
     * <a href="https://www.forbes.com/sites/forbestechcouncil/2022/09/09/11-tech-experts-on-how-small-businesses-can-effectively-leverage-machine-learning/?sh=22f7ecc44ff3">Forbes.com</a>
 * 6 Creative Ways to Use Machine Learning for Small Business
     * <a href="https://www.fiverr.com/resources/guides/programming-tech/machine-learning-for-smb">Fiverr.com</a>
+* Microsoft Azure: The only consistent, comprehensive hybrid cloud
+    * <a href="https://azure.microsoft.com/en-us/blog/microsoft-azure-the-only-consistent-comprehensive-hybrid-cloud/">microsoft.com</a>
+* Azure Stream Analytics
+    * <a href="https://azure.microsoft.com/en-us/products/stream-analytics">microsoft.com</a>
+* Azure pricing
+    * <a href="https://azure.microsoft.com/en-us/pricing/">microsoft.com</a>
+* Azure vs. AWS Pricing: A Quick Comparison
+    * <a href="https://bluexp.netapp.com/blog/azure-vs-aws-pricing-comparing-apples-to-apples-azure-aws-cvo-blg">bluexp.netapp.com</a>
+* Run Jupyter notebooks in your workspace
+    * <a href="https://learn.microsoft.com/en-us/azure/machine-learning/how-to-run-jupyter-notebooks?view=azureml-api-2">microsoft.com</a>
+* Overview of Amazon Web Services
+    * <a href="https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html">amazon.com</a>
+* Microsoft Azure and its most used services
+    * <a href="https://blog.clairvoyantsoft.com/microsoft-azure-and-its-most-used-services-15580f2105d5">clairvoyantsoft.com</a>
    
 
 
