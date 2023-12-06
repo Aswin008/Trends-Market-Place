@@ -14,12 +14,12 @@ from datetime import datetime, timedelta
 
 
 
-# Simulate clickstream data
-def simulate_clickstream_data(num_samples=5000):
+# Simulate historical clickstream data, to train the models
+def simulate_clickstream_data(num_samples=10000):
     data = []
 
     for _ in range(num_samples):
-        # Simulate features
+        # Simulate features 
         page_views = np.random.randint(1, 50)
         time_spent_on_site = np.random.uniform(10, 600)
         actions_performed = random.choice(['click', 'hover', 'scroll'])
@@ -36,7 +36,8 @@ def simulate_clickstream_data(num_samples=5000):
 
         # Simulate promotion interaction
         interacted_with_promotion = np.random.choice([0, 1], p=[0.9, 0.1])
-        
+
+        # Total score of each user is calculated based upon various matrix
         action_score  = 0
         
         if actions_performed == 'click':
@@ -76,10 +77,11 @@ def simulate_clickstream_data(num_samples=5000):
         
 
 
-        # Simulate a conversion (1) or not (0)
+        # If a person would purchase or not in real world is a random choice but with greater probability if they are active using the app
         is_converted = np.random.choice([0, 1], p=[op, pp])
 
-        
+
+        # User engagement score as a function of score and if a person purchased a product or not
         user_engagement_score = is_converted * 300 + score
    
 
