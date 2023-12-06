@@ -34,9 +34,10 @@ def allowSelfSignedHttps(allowed):
 
 allowSelfSignedHttps(True)
 
+MAX_NUM = 1000000
 # Simulate real-time data arrival in a for loop
-for _ in range(100):
-    # Simulate a random input data point
+for _ in range(MAX_NUM):
+    # Simulate a random input data point that is equivalent to click stream data
     random_input_data = {
         "PageViews": np.random.randint(1, 50),
         "TimeSpentOnSite": np.random.uniform(10, 600),
@@ -69,10 +70,10 @@ for _ in range(100):
 
     body = str.encode(json.dumps(data))
 
-    
+    # End Point deployed to ge the user engagement score
     url = 'https://mlworkspace-tgdwv.eastus.inference.ml.azure.com/score'
     
-    # Replace this with the primary/secondary key or AMLToken for the endpoint
+
     api_key = '2cuoWFfsrf3HNtMLCAue6I9tgyDjotYd'
     if not api_key:
         raise Exception("A key should be provided to invoke the endpoint")
@@ -99,7 +100,7 @@ for _ in range(100):
         print(error.read().decode("utf8", 'ignore'))
         
 
-    
+     # End Point deployed to get if the person would purchase a product or not
     url_cl = 'https://mlworkspace-classification.eastus.inference.ml.azure.com/score'
     api_key_sl = '4FI9ll4dd1aa0e6zatElkpDMeWhgpYQe'
     
@@ -136,6 +137,8 @@ for _ in range(100):
     data["input_data"]["data"][0]["userEngagementScore"] = user_score
                 
     data["input_data"]["data"][0]["potentialPurchase"] = pred_out
+
+    # Ingesting the user data along with the predictions into Microsoft Event Hub
     
     producer = EventHubProducerClient.from_connection_string(conn_str=event_hub_connection_string, eventhub_name=event_hub_name)
 
