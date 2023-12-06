@@ -2,6 +2,9 @@
 
 # Small Investments in Machine Learning can lead to Big Returns for Small Businesses
 ******
+### Project videos:
+* <p style="font-size:17px"><a href="https://azure.microsoft.com/en-us/pricing/">Step-by-Step Guide on How to Use this Repository</a></p>
+* <p style="font-size:17px"><a href="https://azure.microsoft.com/en-us/pricing/">Presentation</a></p>
 ******
 
 
@@ -89,6 +92,14 @@ After The Azure event hub is the entry point to the Azure Data Pipeline.  When d
     * Store raw data as-is in a data lake (i.e. Azure Blob Storage)
     * Connect directly to Stream Analytics
 
+### Azure Event Stream Analytics (ETL & Analysis)
+Optimized to process high volumes of data in real-time, Event Streaming Analytics is a fully managed service for streaming data.  For this demonstration, Event Stream Analytics serves as our final destination of our data in this pipeline.
+
+#### Features
+* Combine data from multiple streaming sources
+* Transform data within Event Stream Analytics data with SQL-based queries
+* Stream data from Event Stream Analytics to create real-time dashboards in Power BI Pipe 
+
 <br>
 
 ## Team Members
@@ -102,8 +113,6 @@ After The Azure event hub is the entry point to the Azure Data Pipeline.  When d
 | Natalia Mendoza-Orr | <a href="https://www.linkedin.com/in/nmendoza-orr//">nmendoza-orr</a> | <a href="https://github.com/njmorr/">njmorr</a> |
 | Zhuofan Zhai | <a href="https://www.linkedin.com/in/zhuofan-zhai-4b1757228/">zhuofan-zhai-4b1757228</a> | <a href="https://github.com/Erik1010101010/">Erik1010101010</a> |
 
-## Cited Works
-******
 * The State of Data in Motion (2022 Report)
     * <a href="https://static1.squarespace.com/static/5e9491b0c2923c644bacc529/t/62d5ded3727bb8247f3e015c/1658183403823/Confluent-20220512-RPT-Data_in_Motion-ENG+%281%29.pdf">Confluent.io</a>
 * 6 Ways Your Small Business Can Benefit From Machine Learning Solutions
@@ -112,28 +121,27 @@ After The Azure event hub is the entry point to the Azure Data Pipeline.  When d
     * <a href="https://www.forbes.com/sites/forbestechcouncil/2022/09/09/11-tech-experts-on-how-small-businesses-can-effectively-leverage-machine-learning/?sh=22f7ecc44ff3">Forbes.com</a>
 * 6 Creative Ways to Use Machine Learning for Small Business
     * <a href="https://www.fiverr.com/resources/guides/programming-tech/machine-learning-for-smb">Fiverr.com</a>
-* Microsoft Azure: The only consistent, comprehensive hybrid cloud
-    * <a href="https://azure.microsoft.com/en-us/blog/microsoft-azure-the-only-consistent-comprehensive-hybrid-cloud/">microsoft.com</a>
-* Azure Stream Analytics
-    * <a href="https://azure.microsoft.com/en-us/products/stream-analytics">microsoft.com</a>
-* Azure pricing
-    * <a href="https://azure.microsoft.com/en-us/pricing/">microsoft.com</a>
+* Microsoft Azure revenue growth worldwide from financial year 2020 to 2023, by quarter
+    * <a href="https://www.statista.com/statistics/1242206/microsoft-azure-revenue-yoy-quarterly">statista.com</a>   
 * Azure vs. AWS Pricing: A Quick Comparison
     * <a href="https://bluexp.netapp.com/blog/azure-vs-aws-pricing-comparing-apples-to-apples-azure-aws-cvo-blg">bluexp.netapp.com</a>
-* Run Jupyter notebooks in your workspace
-    * <a href="https://learn.microsoft.com/en-us/azure/machine-learning/how-to-run-jupyter-notebooks?view=azureml-api-2">microsoft.com</a>
-* Overview of Amazon Web Services
-    * <a href="https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html">amazon.com</a>
 * Microsoft Azure and its most used services
     * <a href="https://blog.clairvoyantsoft.com/microsoft-azure-and-its-most-used-services-15580f2105d5">clairvoyantsoft.com</a>
-   
+* Microsoft Azure: The only consistent, comprehensive hybrid cloud
+    * <a href="https://azure.microsoft.com/en-us/blog/microsoft-azure-the-only-consistent-comprehensive-hybrid-cloud/">microsoft.com</a>
+* Overview of Amazon Web Services
+    * <a href="https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html">amazon.com</a>
+
+* Run Jupyter notebooks in your workspace
+    * <a href="https://learn.microsoft.com/en-us/azure/machine-learning/how-to-run-jupyter-notebooks?view=azureml-api-2">microsoft.com</a>
+
 
 
 #### MS Azure Product Documentation
 * <a href="https://azure.microsoft.com/en-us/products/machine-learning/automatedml/">Automated ML</a>
 * <a href="https://azure.microsoft.com/en-us/products/event-hubs">Event Hubs</a>
 * <a href="https://azure.microsoft.com/en-us/products/stream-analytics">Stream Analytics</a>
-
+* <a href="https://azure.microsoft.com/en-us/pricing/">Azure Pricing</a>
 
 
 *******
