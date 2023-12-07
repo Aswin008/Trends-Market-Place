@@ -2,9 +2,8 @@
 
 # Small Investments in Machine Learning can lead to Big Returns for Small Businesses
 ******
-### Project videos:
-* <p style="font-size:17px"><a href="https://azure.microsoft.com/en-us/pricing/">Step-by-Step Guide on How to Use this Repository</a></p>
-* <p style="font-size:17px"><a href="https://youtu.be/vyQ_HiuBmvk">Presentation</a></p>
+### Project video: Presentation and Github Walk-Through
+* <p style="font-size:17px"><a href="https://youtu.be/vyQ_HiuBmvk">Click here for our Presentation</a></p>
 ******
 
 
