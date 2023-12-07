@@ -4,7 +4,7 @@
 ******
 ### Project videos:
 * <p style="font-size:17px"><a href="https://azure.microsoft.com/en-us/pricing/">Step-by-Step Guide on How to Use this Repository</a></p>
-* <p style="font-size:17px"><a href="https://azure.microsoft.com/en-us/pricing/">Presentation</a></p>
+* <p style="font-size:17px"><a href="https://youtu.be/vyQ_HiuBmvk">Presentation</a></p>
 ******
 
 
